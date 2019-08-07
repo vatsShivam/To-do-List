@@ -1,0 +1,19 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A Simple ToDo Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch public --exec npm run start:nodeserver",
+    "start:nodeserver": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shivam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
